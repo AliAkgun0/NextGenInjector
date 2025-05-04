@@ -1,4 +1,3 @@
-# NextGenInjector
 # 🚀 NextGen Injector
 
 > A high-performance, stealthy and customizable DLL injection framework written in modern C++. Designed with advanced injection techniques, anti-detection layers, and a user-friendly Win32 GUI.
