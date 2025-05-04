@@ -1,0 +1,266 @@
+﻿  Injector.cpp
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Injector.cpp(7,11): error C2084: function 'Injector::Injector(void)' already has a body
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Injector.h(19,5):
+      see previous definition of 'Injector::Injector'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Injector.cpp(8,12): error C2084: function 'Injector::~Injector(void)' already has a body
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Injector.h(20,6):
+      see previous definition of 'Injector::~Injector'
+  
+  Logger.cpp
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(8,17): error C2084: function 'Logger &Logger::GetInstance(void)' already has a body
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.h(9,20):
+      see previous definition of 'Logger::GetInstance'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(13,74): error C2065: 'LOG_LEVEL_INFO': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(13,20): error C2614: 'Logger': illegal member initialization: 'm_consoleOutput' is not a base or member
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(13,43): error C2614: 'Logger': illegal member initialization: 'm_fileOutput' is not a base or member
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(13,63): error C2614: 'Logger': illegal member initialization: 'm_logLevel' is not a base or member
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(24,9): error C2065: 'm_logLevel': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(24,23): error C2065: 'LOG_LEVEL_INFO': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(26,9): error C3861: 'WriteToConsole': identifier not found
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(32,9): error C2065: 'm_logLevel': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(32,23): error C2065: 'LOG_LEVEL_ERROR': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(34,9): error C3861: 'WriteToConsole': identifier not found
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(40,9): error C2065: 'm_logLevel': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(40,23): error C2065: 'LOG_LEVEL_INFO': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(42,9): error C3861: 'WriteToConsole': identifier not found
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(47,14): error C2039: 'LogWarning': is not a member of 'Logger'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.h(7,7):
+      see declaration of 'Logger'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(48,9): error C2065: 'm_logLevel': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(48,23): error C2065: 'LOG_LEVEL_WARNING': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(50,9): error C3861: 'WriteToConsole': identifier not found
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(51,9): error C3861: 'WriteToFile': identifier not found
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(55,14): error C2039: 'LogDebug': is not a member of 'Logger'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.h(7,7):
+      see declaration of 'Logger'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(56,9): error C2065: 'm_logLevel': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(56,23): error C2065: 'LOG_LEVEL_DEBUG': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(58,9): error C3861: 'WriteToConsole': identifier not found
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(59,9): error C3861: 'WriteToFile': identifier not found
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(63,14): error C2039: 'SetLogFile': is not a member of 'Logger'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.h(7,7):
+      see declaration of 'Logger'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(64,38): error C2065: 'm_mutex': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(65,5): error C2065: 'm_logFile': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(68,14): error C2039: 'EnableConsoleOutput': is not a member of 'Logger'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.h(7,7):
+      see declaration of 'Logger'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(69,38): error C2065: 'm_mutex': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(70,5): error C2065: 'm_consoleOutput': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(73,14): error C2039: 'EnableFileOutput': is not a member of 'Logger'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.h(7,7):
+      see declaration of 'Logger'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(74,38): error C2065: 'm_mutex': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(75,5): error C2065: 'm_fileOutput': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(78,14): error C2039: 'SetLogLevel': is not a member of 'Logger'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.h(7,7):
+      see declaration of 'Logger'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(79,38): error C2065: 'm_mutex': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(80,5): error C2065: 'm_logLevel': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(84,10): error C2065: 'm_fileOutput': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(93,14): error C2039: 'WriteToConsole': is not a member of 'Logger'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.h(7,7):
+      see declaration of 'Logger'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(94,10): error C2065: 'm_consoleOutput': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(96,38): error C2065: 'm_mutex': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(100,22): error C2039: 'GetTickCount': is not a member of 'Logger'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.h(7,7):
+      see declaration of 'Logger'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(100,22): error C2556: 'std::wstring GetTickCount(void)': overloaded function differs only by return type from 'DWORD GetTickCount(void)'
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\sysinfoapi.h(180,1):
+      see declaration of 'GetTickCount'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(100,22): error C2371: 'GetTickCount': redefinition; different basic types
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\sysinfoapi.h(180,1):
+      see declaration of 'GetTickCount'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(100,22): error C2491: 'GetTickCount': definition of dllimport function not allowed
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(111,22): error C2039: 'FormatMessageW': is not a member of 'Logger'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.h(7,7):
+      see declaration of 'Logger'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(112,12): error C2568: '+': unable to resolve function overload
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\Logger.cpp(112,12):
+      could be 'DWORD GetTickCount(void)'
+  
+  NextGenInjector.cpp
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(147,19): error C2660: 'NextGenInjector::Initialize': function does not take 0 arguments
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(58,10):
+      see declaration of 'NextGenInjector::Initialize'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(147,19):
+      while trying to match the argument list '()'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(226,18): error C2084: function 'NextGenInjector::NextGenInjector(void)' already has a body
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(62,5):
+      see previous definition of 'NextGenInjector::NextGenInjector'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(227,7): error C2614: 'NextGenInjector': illegal member initialization: 'm_hwnd' is not a base or member
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(242,19): error C2084: function 'NextGenInjector::~NextGenInjector(void)' already has a body
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(63,6):
+      see previous definition of 'NextGenInjector::~NextGenInjector'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(243,5): error C3861: 'Cleanup': identifier not found
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(246,23): error C2511: 'bool NextGenInjector::Initialize(void)': overloaded member function not found in 'NextGenInjector'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(51,7):
+      see declaration of 'NextGenInjector'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(258,14): error C2352: 'NextGenInjector::CreateMainWindow': a call of a non-static member function requires an object
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(75,10):
+      see declaration of 'NextGenInjector::CreateMainWindow'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(264,14): error C2352: 'NextGenInjector::CreateProcessList': a call of a non-static member function requires an object
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(76,10):
+      see declaration of 'NextGenInjector::CreateProcessList'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(265,14): error C2352: 'NextGenInjector::CreatePIDInput': a call of a non-static member function requires an object
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(77,10):
+      see declaration of 'NextGenInjector::CreatePIDInput'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(266,14): error C2352: 'NextGenInjector::CreateDLLPathInput': a call of a non-static member function requires an object
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(78,10):
+      see declaration of 'NextGenInjector::CreateDLLPathInput'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(267,14): error C2352: 'NextGenInjector::CreateInjectionMethodCombo': a call of a non-static member function requires an object
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(79,10):
+      see declaration of 'NextGenInjector::CreateInjectionMethodCombo'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(268,14): error C2352: 'NextGenInjector::CreateAutoDeleteCheck': a call of a non-static member function requires an object
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(80,10):
+      see declaration of 'NextGenInjector::CreateAutoDeleteCheck'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(269,14): error C2352: 'NextGenInjector::CreateDelayInjectCheck': a call of a non-static member function requires an object
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(81,10):
+      see declaration of 'NextGenInjector::CreateDelayInjectCheck'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(270,14): error C2352: 'NextGenInjector::CreateInjectButton': a call of a non-static member function requires an object
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(82,10):
+      see declaration of 'NextGenInjector::CreateInjectButton'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(271,14): error C2352: 'NextGenInjector::CreateRefreshButton': a call of a non-static member function requires an object
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(83,10):
+      see declaration of 'NextGenInjector::CreateRefreshButton'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(272,14): error C2352: 'NextGenInjector::CreateSelectDLLButton': a call of a non-static member function requires an object
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(84,10):
+      see declaration of 'NextGenInjector::CreateSelectDLLButton'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(278,9): error C2597: illegal reference to non-static member 'NextGenInjector::m_configManager'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(104,36):
+      see declaration of 'NextGenInjector::m_configManager'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(287,9): error C2352: 'NextGenInjector::RandomizeWindowTitle': a call of a non-static member function requires an object
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(86,10):
+      see declaration of 'NextGenInjector::RandomizeWindowTitle'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(303,23): error C2511: 'bool NextGenInjector::Run(HINSTANCE,int)': overloaded member function not found in 'NextGenInjector'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(51,7):
+      see declaration of 'NextGenInjector'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(304,10): error C2660: 'NextGenInjector::Initialize': function does not take 0 arguments
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(58,10):
+      see declaration of 'NextGenInjector::Initialize'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(304,10):
+      while trying to match the argument list '()'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(313,23): error C2039: 'Cleanup': is not a member of 'NextGenInjector'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(51,7):
+      see declaration of 'NextGenInjector'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(314,9): error C2065: 'm_hwnd': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(315,23): error C2065: 'm_hwnd': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(316,9): error C2065: 'm_hwnd': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(323,22): error C2065: 'WindowProc': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(335,5): error C2065: 'm_hwnd': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(348,10): error C2065: 'm_hwnd': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(352,16): error C2065: 'm_hwnd': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(353,18): error C2065: 'm_hwnd': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(365,9): error C2065: 'm_hwnd': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(409,9): error C2065: 'm_hwnd': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(425,9): error C2065: 'm_hwnd': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(441,9): error C2065: 'm_hwnd': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(467,9): error C2065: 'm_hwnd': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(483,9): error C2065: 'm_hwnd': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(499,9): error C2065: 'm_hwnd': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(515,9): error C2065: 'm_hwnd': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(531,9): error C2065: 'm_hwnd': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(542,19): error C2065: 'm_hwnd': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(611,20): error C2065: 'm_hwnd': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(630,20): error C2065: 'm_hwnd': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(635,16): warning C4244: 'initializing': conversion from 'LRESULT' to 'int', possible loss of data
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(638,16): error C2065: 'm_hwnd': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(650,21): error C2065: 'm_hwnd': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(680,35): error C2039: 'WindowProc': is not a member of 'NextGenInjector'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(51,7):
+      see declaration of 'NextGenInjector'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(696,24): error C2248: 'NextGenInjector::OnInject': cannot access private member declared in class 'NextGenInjector'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(607,23):
+      see declaration of 'NextGenInjector::OnInject'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(51,7):
+      see declaration of 'NextGenInjector'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(699,24): error C2248: 'NextGenInjector::OnRefresh': cannot access private member declared in class 'NextGenInjector'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(641,23):
+      see declaration of 'NextGenInjector::OnRefresh'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(51,7):
+      see declaration of 'NextGenInjector'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(702,24): error C2248: 'NextGenInjector::OnSelectDLL': cannot access private member declared in class 'NextGenInjector'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(645,23):
+      see declaration of 'NextGenInjector::OnSelectDLL'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(51,7):
+      see declaration of 'NextGenInjector'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(705,24): error C2248: 'NextGenInjector::OnAutoDeleteChanged': cannot access private member declared in class 'NextGenInjector'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(672,23):
+      see declaration of 'NextGenInjector::OnAutoDeleteChanged'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(51,7):
+      see declaration of 'NextGenInjector'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(708,24): error C2248: 'NextGenInjector::OnDelayInjectChanged': cannot access private member declared in class 'NextGenInjector'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(676,23):
+      see declaration of 'NextGenInjector::OnDelayInjectChanged'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(51,7):
+      see declaration of 'NextGenInjector'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(717,14): error C2065: 'WM_UPDATE_PROCESS_LIST': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(717,14): error C2131: expression did not evaluate to a constant
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(717,14):
+      a non-constant (sub-)expression was encountered
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(718,20): error C2248: 'NextGenInjector::UpdateProcessList': cannot access private member declared in class 'NextGenInjector'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(545,23):
+      see declaration of 'NextGenInjector::UpdateProcessList'
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.h(51,7):
+      see declaration of 'NextGenInjector'
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(721,14): error C2065: 'WM_INJECT_COMPLETE': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(721,14): error C2131: expression did not evaluate to a constant
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(721,14):
+      a non-constant (sub-)expression was encountered
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(725,14): error C2065: 'WM_INJECT_ERROR': undeclared identifier
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(725,14): error C2131: expression did not evaluate to a constant
+      C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(725,14):
+      a non-constant (sub-)expression was encountered
+  
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(717,14): error C2051: case expression not constant
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(721,14): error C2051: case expression not constant
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\NextGenInjector.cpp(725,14): error C2051: case expression not constant
+  main.cpp
+C:\Users\Muhammed\Downloads\DLL Injector Core\NextGenInjector\NextGenInjector\framework.h(7,9): warning C4005: 'WINVER': macro redefinition
+  (compiling source file '../NextGenInjector/main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\sdkddkver.h(245,9):
+      see previous definition of 'WINVER'
+  
+  Generating Code...
