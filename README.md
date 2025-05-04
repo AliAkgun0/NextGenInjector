@@ -113,10 +113,6 @@ NextGenInjector/
 ├── build/ # Output binaries
 └── README.md # Project description
 
-yaml
-Copy
-Edit
-
 ---
 
 ## ⚠️ Disclaimer
