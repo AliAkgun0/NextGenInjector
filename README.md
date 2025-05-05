@@ -1,6 +1,6 @@
 🧪 Development Notice
 
-⚠️ This project is currently in active development and may not be fully functional at this stage.
+>⚠️ This project is currently in active development and may not be fully functional at this stage.
 Some features are still experimental, and certain injection methods or GUI components might not behave as expected.
 I'm actively working on identifying and fixing the remaining bugs, improving stability, and finalizing all core systems.
 
